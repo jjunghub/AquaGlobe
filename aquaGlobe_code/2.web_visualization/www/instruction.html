@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+    #toc_container {
+        background: #f9f9f9 none repeat scroll 0 0;
+        border: 1px solid #aaa;
+        display: table;
+        font-size: 95%;
+        margin-bottom: 1em;
+        padding: 20px;
+        width: auto;
+    }
+
+    .toc_title {
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #toc_container li, #toc_container ul, #toc_container ul li{
+        list-style: outside none none !important;
+    }
+
+      #enInst,
+      #koInst {
+        margin: 5%;
+      }
+
+      .en2,
+      .ko2 {
+        display: none;
+      }
+
+      .en2.visible,
+      .ko2.visible {
+        display: block;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <select id="lang2">
+      <option value="en2" selected>English</option>
+      <option value="ko2">Korean</option>
+    </select>
+
+    <section class="en2 visible" id="enInst">
+
+    <h2>How to Use AquaGlobe: </h2>
+    <p> This page aims to provide a simple instruction for how to use AquaGlobe </p>
+
+
+    <div id="toc_container">
+    <p class="toc_title">Contents</p>
+    <ol class="toc_list">
+      <li><a href="#First_Point_Header">1 Tabs</a></li>
+      <li><a href="#Second_Point_Header">2 Select a fish species and/or a country</a></li>
+      <li><a href="#Third_Point_Header">3 Fish amount by year</a></li>
+        <ul>
+          <li><a href="#Third_Sub_Point_1">3.1 Year</a></li>
+          <li><a href="#Third_Sub_Point_2">3.2 Bubbles</a></li>
+          <li><a href="#Third_Sub_Point_3">3.3 Area Chart</a></li>
+        </ul>
+      <li><a href="#Fourth_Point_Header">4 Export network</a></li>
+        <ul>
+          <li><a href="#Fourth_Sub_Point_1">4.1 Exporting</a></li>
+          <li><a href="#Fourth_Sub_Point_2">4.2 Importing</a></li>
+          <li><a href="#Fourth_Sub_Point_3">4.3 Networks</a></li>
+        </ul>
+      <li><a href="#Fifth_Point_Header">5 Culture-Skill network</a></li>
+        <ul>
+          <li><a href="#Fifth_Sub_Point_1">5.1 Recipient</a></li>
+          <li><a href="#Fifth_Sub_Point_2">5.2 Contributor</a></li>
+          <li><a href="#Fifth_Sub_Point_3">5.3 Networks</a></li>
+        </ul>
+    </ol>
+    </div>
+
+    <!--img src=“instEn1.png” alt="instruction aiding image" width=70%-->
+
+    <h3 id="First_Point_Header">1 Tabs</h3>
+      <p> There are five tabs in total: “About Aqua Globe”, “Instruction”, “Fish amount by year”, “Export Network”, and “Culture-skill network”.</p>
+      <p> As you click a different tab, its content will be loaded automatically. To introduce different tabs:</p>
+        <ul>
+          <li><strong>“About Aqua Globe”</strong> aims to provide users an introduction to this project such as how this project began, what data source this project based on, and other information.</li>
+          <li><strong>“Instruction”</strong> guides users how to use AquaGlobe with pictures and words.</li>
+          <li><strong>“Fish amount per year”</strong> is a bubble chart that is visualizing fish production (mariculture and captures) per year for each relevant countries.</li>
+          <li><strong>“Export Network”</strong> aims to show a possible import and export network about a selected marine species. </li>
+          <li><strong>“Culture-skill network”</strong> connects emerging countries with countries that had been capturing the chosen fish species.</li>
+    </ul>
+
+    <h3 id="Second_Point_Header">2 Select a fish species and/or a country</h3>
+        <p> Users can search a specific marine species by either typing or by scrolling down. The marine species are ordered alphabetically, and so is the countries. Once the user clicks the marine species, the bubble plot, export network plot, and culture-skill network plot on the left side will be uploaded automatically. </p>
+        <p>Furthermore, by selecting a country, users can get more information regarding that country's marine production.  The map will automatically focus on the selected country,  and also will provide with a country's separate line chart of the fish species' production if the country produces the selected species. </p>
+
+    <h3 id="Third_Point_Header">3 Fish amount by year</h3>
+        <p>The "fish amount by year" chart is a bubble chart to show a fish production amount (captured and cultured combined) per year for a country's near-sea, where each country has their mariculture.</p>
+      <h4 id="Third_Sub_Point_1">3.1 Year</h4>
+        <p>Users can select a specific year between 1950 and 2015 as they need. Also, they can select a year parameter and play the animation that shows the change of production per year by clicking the play button under the year 2015.</p>
+      <h4 id="Third_Sub_Point_2">3.2 Bubble</h4>
+        <p>Each bubble indicates a country, and color of the bubble is unique to a country. The size of the bubble indicates a production size. </p>
+        <p>Also, users can click any bubble to read more detailed information about the status of a selected country (whether its production rate is increasing or decreasing),  accurate production number and other information. </p>
+      <h4 id="Third_Sub_Point_3">3.3 Area Chart</h4>
+        <p>Area chart shows a total production amount of relevant countries, and also shows production amount of each country. Each country's color is matched with each countries bubble color in the chart.</p>
+
+    <!--img src=“instImg/instEn2.png” alt="instruction aiding image2" width=70%-->
+
+    <h3 id="Fourth_Point_Header">4 Export network</h3>
+      <p>The “Export Network” chart aims to show a possible import and export network about a selected marine species. </p>
+      <h4 id="Fourth_Sub_Point_1">4.1 Exporting</h4>
+        <p>Exporting countries are colored as <i>blue</i>. These are the countries with a status "increase" or "new". This means that these countries are producing more than they used to do so, and hence likely to have extra production that they need to export. </p>
+      <h4 id="Fourth_Sub_Point_2">4.2 Importing</h4>
+        <p>Importing countries are colored as <i>gray</i>. These are the countries with a status "decrease" or "dangerous". This means that these countries are producing less than they used to do so, and hence it is likely that a market is readily created that is in need. </p>
+      <h4 id="Fourth_Sub_Point_3">4.3 Networks</h4>
+        <p> One group of countries (increase and new) need to find a market that they can export their productions, and another group of countries (decrease and dangerous) need to import to meet their need. Hence a network can be created. </p>
+        <p> <i>Yellow lines</i> indicates networks that can be created, from the blue countries to the gray countries. The thickness of the line refers to an amount that can possibly be exported/imported. </p>
+
+    <!--img src=“instImg/instEn3.png” alt="instruction aiding image3" width=70%-->
+    <h3 id="Fifth_Point_Header">5 Culture-Skill network</h3>
+    <p>The “Culture-skill network” chart connects emerging countries, that are new to capturing/culturing the species, with countries that had been capturing the chosen fish species. </p>
+      <h4 id="Fifth_Sub_Point_1">5.1 Recipient</h4>
+        <p>Recipient countries are colored as <i>blue</i>. These are the countries with a status "new". This means that these countries are new at producing selected marine species. They probably need two things: cultural understanding of the species and skill to capture or culture the species. </p>
+        <p>Cultural understanding includes any method to consume the species domestically. It includes a cooking method or any other cultural references that use these species.
+        This network would make the new countries to learn how to accept these species as their own. </p>
+        <p>Skill is also another important part. These new species are a stranger to them, and if they can receive advice on how to culture or capture the species, it would save them much financial and humane effort.</p>
+      <h4 id="Fifth_Sub_Point_2">5.2 Contributor</h4>
+        <p>Contributor countries are colored as <i>green</i>. These are the countries with a status "increase", "decrease", and "dangerous". This means that these countries have been producing this species. It is highly probable that they are used to this species culturally, and acquire methods to capture or and culture the species well. Hence, they can provide, or do a joint research with other countries that are in need of those know-hows. </p>
+      <h4 id="Fifth_Sub_Point_3">5.3 Networks</h4>
+        <p> New countries need to find a method to get used to their strange species, and another group of countries (increase, decrease and dangerous) can provide the new countries with such information. And by doing so, </p>
+        <p> <i>Dark blue lines</i> indicates networks that can be created, from the green countries to the blue countries. The thickness of the line refers to an abstract amount that can possibly be exchanged. And since more the countries produce, more  familiar the countries would be, the network line is thicker if the countries' production was or is high.</p>
+
+      <h3> And now you have read all of "How to Use AquaGlobe, explore the data yourselves."</h3>
+      <h3>The END </h3>
+      <img src="turtle.svg" alt="A black colored simplified graphic of a turtle">
+
+    </section>
+
+    <section class="ko2" id="koInst">
+        <h2>AquaGlobe를 사용하는 방법: </h2>
+        <p> 이 페이지는 AquaGlobe를 사용하는 간단한 방법을 설명해드리기 위한 페이지입니다.</p>
+
+        <div id="toc_container">
+        <p class="toc_title">Contents</p>
+        <ol class="toc_list">
+          <li><a href="#First_Point_Header">1 Tabs</a></li>
+          <li><a href="#Second_Point_Header">2 Select a fish species and/or a country</a></li>
+          <li><a href="#Third_Point_Header">3 Fish amount by year</a></li>
+            <ul>
+              <li><a href="#Third_Sub_Point_1">3.1 Year</a></li>
+              <li><a href="#Third_Sub_Point_2">3.2 Bubbles</a></li>
+              <li><a href="#Third_Sub_Point_3">3.3 Area Chart</a></li>
+            </ul>
+          <li><a href="#Fourth_Point_Header">4 Export network</a></li>
+            <ul>
+              <li><a href="#Fourth_Sub_Point_1">4.1 Exporting</a></li>
+              <li><a href="#Fourth_Sub_Point_2">4.2 Importing</a></li>
+              <li><a href="#Fourth_Sub_Point_3">4.3 Networks</a></li>
+            </ul>
+          <li><a href="#Fifth_Point_Header">5 Culture-Skill network</a></li>
+            <ul>
+              <li><a href="#Fifth_Sub_Point_1">5.1 Recipient</a></li>
+              <li><a href="#Fifth_Sub_Point_2">5.2 Contributor</a></li>
+              <li><a href="#Fifth_Sub_Point_3">5.3 Networks</a></li>
+            </ul>
+        </ol>
+        </div>
+
+        <!--img src=“instImg/instEn1.png” alt="instruction aiding image" width=70%-->
+
+        <h3 id="First_Point_Header">1 Tabs</h3>
+          <p> AquaGlobe는 총 5개의 탭으로 이루어져있습니다. “About Aqua Globe”, “Instruction”, “Fish amount by year”, “Export Network”, and “Culture-skill network” 입니다.</p>
+          <p> 이 탭들을 누르시면 페이지는 자동으로 로딩됩니다. 탭들은 서로 다른 정보를 담고 있습니다.</p>
+          <ul>
+            <li><strong>“About Aqua Globe”</strong>에는 AquaGlobe 이 프로젝트가 어떻게 시작되었으며, 어떤 데이터에 기반을 두고 있는지 등 프로젝트의 전반적인 방향과 정보가 담겨있습니다.</li>
+            <li><strong>“Instruction”</strong>은 AquaGlobe를 어떻게 샤용해야 할 지 알려주는 유저 메뉴얼입니다.</li>
+            <li><strong>“Fish amount per year”</strong>로 관련 된 나라들이 한 해에 얼마만큼의 물고기를 잡거나 양식하는지를 버블차트의 형태로 볼 수 있습니다.</li>
+            <li><strong>“Export Network”</strong>로 선선택하신 어종으로 생길 수 있는 수출입 네트워크를 볼 수 있습니다.</li>
+            <li><strong>“Culture-skill network”</strong>는 선택하신 어종을 새로 잡기 시작한 나라들과 예전부터 잡아온 나라들을 연결시켜줍니다.</li>
+          </ul>
+
+        <h3 id="Second_Point_Header">2 Select a fish species and/or a country</h3>
+            <p> 사용자는 "Select a fish"에 직접 타입을 하거나 리스트를 스트롤 다운 하는 것을 통해 사용자는 원하는 어종을 고를 수 있습니다. 어류들과 나라들은 알파벳 순서로 정렬되어있습니다. 사용자가 어류를 선택하시면 왼쪽에 위치한 세개의 탭 (“Fish amount per year”, “Export Network”와 “Culture-skill network")는 자동으로 로딩됩니다.</p>
+            <p> 또한, 나라를 선택하시면 선택하신 나라의 선택하신 어종에 대한 더 자세한 정보를 얻을 수 있습니다. 지도는 자동으로 선택하신 나라를 중심으로 이동 할 것 이며, 면적 그레프 밑에 선택하신 나라에 해당하는 선 그래프가 그려집니다.</p>
+
+        <h3 id="Third_Point_Header">3 Fish amount by year</h3>
+            <p>"Fish amount by year" 차트는 버블 차트로서 해당 나라가 인근해(해당 나라가 양식을 하는 해역)에서 그 년도에 잡은 선택된 어류의 포획 및 양식의 양을 나타냅니다.  </p>
+          <h4 id="Third_Sub_Point_1">3.1 Year</h4>
+            <p>사용자는 1950년과 2015년 사이의 년도 혹은 년도들을 선택해서 년도별 포획량의 변화를 볼 수 있습니다. 2015년 밑의 플레이 버튼을 누르면 선택하신 년도들의 포획량 변화를 애니메이션 효과로 볼 수 있습니다. </p>
+          <h4 id="Third_Sub_Point_2">3.2 Bubble</h4>
+            <p> 각각의 동그라미는 하나의 나라를 상징하며 그 동그라미의 색은 해당 나라에 고유하게 귀속됩니다. 동그라미의 사이즈는 해당 년도의 포획량을 나타냅니다. </p>
+            <p>또한, 동그라미를 클릭하면 그 나라의 상태 (예전보다 더 많은 해당 어종을 잡고/양식하고 있는지의 여부), 정확히 얼마만큼 포획/양식하고 있는지, 등을 알 수 있습니다. </p>
+
+          <h4 id="Third_Sub_Point_3">3.3 Area Chart</h4>
+            <p>면적 차트는 해당 어류를 포획/양식하는 모든 나라의 포획/양식양의 합과, 각각 나라의 포획/양식양을 보여줍니다. 버블 차트에서 동그라미 색과 같은 각 나라의 고유한 색이 면적 차트에서 그 나라를 나타냅니다.</p>
+
+        <!--img src=“instImg/instEn2.png” alt="instruction aiding image2" width=70%-->
+
+        <h3 id="Fourth_Point_Header">4 Export network</h3>
+          <p>"Export Network" 차트는 선택하신 어종으로 생길 수 있는 수출입 네트워크를 보여줍니다. </p>
+          <h4 id="Fourth_Sub_Point_1">4.1 Exporting</h4>
+            <p>수출을 할 수 있는 나라는 <i>하늘색</i>으로 보여집니다. 이 나라들은 "increase"(포획/양식양이 늘고있는 나라) 혹은 "new"(새로 포획/양식하기 시작한 나라)라는 상태값을 가지고 있는 나라들입니다. 이 나라들은 예전보다 해당 어류를 많이 잡고 있기 때문에 내수에서 소비할 수 있는 양을 넘어 설 것입니다. 그렇기 때문에 수출 할 수 있는 가능성이 있습니다. </p>
+          <h4 id="Fourth_Sub_Point_2">4.2 Importing</h4>
+            <p>수입을 할 수 있는 나라들은 <i>회색</i>으로 선택되어있습니다. 이 나라들은 "decreased"(포획/양식양이 적어지고 있는 나라) 혹은 "dangerous"(포획/어획량이 급격하게 줄은 나라)라는 상태값을 가지고 있는 나라들입니다. 이 나라들은 예전보다 해당 어류를 적게 잡고 있기 때문에 이미 형성되어있는 마켓의 니즈를 충족하지 못할 것입니다. 그렇기 때문에 다른 나라에서 해당 어종을 수입해 와야 할 것입니다. </p>
+          <h4 id="Fourth_Sub_Point_3">4.3 Networks</h4>
+            <p> increase 와 new의 상태값인 나라들은 그 나라들이 수출을 할 수 있는 새로운 마켓을 찾아야 합니다. 그렇지만 decrease와 dangerous라는 상태값을 가진 나라들은 그들의 니즈를 충족하기 위해서 어디선가 해당 어류를 수입해와야합니다. 그렇다면 그 둘 사이에서 네트워크가 생기는 것은 당연 할 것입니다.</p>
+            <p><i>노란색 라인</i>은 파란색 나라에서 회색 나라로 이어지는, 만들어질 가능성이 있는 네트워크를 의미합니다. 네트워크의 두께는 수출입을 할 수 있는 양을 의미합니다.</p>
+
+        <!--img src=“instImg/instEn3.png” alt="instruction aiding image3" width=70%-->
+        <h3 id="Fifth_Point_Header">5 Culture-Skill network</h3>
+        <p>"Culture-skill network" 차트는 해당 어류를 새로 잡기 시작한 나라와 예전부터 잡고있었던 나라들을 이어줍니다.</p>
+          <h4 id="Fifth_Sub_Point_1">5.1 Recipient</h4>
+            <p>문화적 사용법과 포획/양식 노하우를 받을 수 있는 나라들은 <i>파란색</i>으로 설정되어있습니다. 이 나라들은 "new"라는 상태를 가지고 잇습니다. 이 나라들은 해당 어류들을 새로 포획/양식하기 시작한 나라들입니다. 이 나라들은 아마 해당 어종을 문화적으로 소비할 수 있는 방법 혹은 포획/양식을 할 수 있는 더 좋은 방법을 필요로 할 것입니다. </p>
+            <p>문화적 소비법 같은 경우는 해당 어종을 나라 안에서 소비할 수 있는 방안들을 말합니다. 예를 들면 해당 어류의 요리법 같은 것 말입니다. 이 네트워크를 통해 해당 어류를 새로 잡기 시작한 나라들은 해당 어류를 해외 어종이 아니라 자신의 어종으로 받아들일 수 있는 기회가 될 것입니다.</p>
+            <p>기술 역시 중요합니다. 해당 어종을 새로 잡기 시작한 나라의 사람들은 해당 어종에 익숙해있지 않습니다. 그렇기 때문에 해당 어종을 포획/양식할 수 있는 방법을 잘 모를 것 입니다. 새로운 양식법, 포획법을 알아내기 위해서는 시간과 노력이 듭니다. 만약 네트워크를 통해 그 노력과 시간을 절약할 수 있다면 좋을 것입니다. </p>
+          <h4 id="Fifth_Sub_Point_2">5.2 Contributor</h4>
+            <p>문화적 사용법과 포획/양식 노하우를 줄 수 있는 나라들은 <i>초록색</i>으로 설정되어있습니다. 이 나라들은 "increase", "decrease",와 "dangerous"라는 상태를 가지고 있습니다. 이 나라들은 예전부터 해당 어류들을 새로 포획/양식했던 나라들입니다. 그렇기 때문에 이 나라들은 해당 어류를 포획/양식 할 수 있는 방법을 알고있을 것입니다. 그렇기때문에 이 나라들은 다른 나라들에게 그 노하우를 전해주거나 같이 연구하는 프로젝트를 진행할 수 있을 것입니다.</p>
+          <h4 id="Fifth_Sub_Point_3">5.3 Networks</h4>
+            <p>해당 어류를 새로 잡기 시작한 나라들은 그들이 익숙하지 않은 이 어종에 익숙해질 방법을 찾고있고, 나머지 나라들은 그런 방법을 제공공해 줄 수 있습니다. 그리고 그렇게 함으로서 새로운 네트워크를 형성 할 수 있습니다.</p>
+            <p><i>진한 파란색 선들</i>은 초록색 나라들로부터 파란색 나라들로 이어질 수 있는 네트워크들을 의미합니다. 그리고 선들의 두께는 그 네트워크를 통해서 교류될 수 있는 정보의 양을 시각화 합니다. 예전부터 해당 어류를 잡았던 나라가 해당 어류를 더 많이 잡았을수록 그 나라는 그 어종에 익숙 할 것입니다. 그러므로 그 나라가 새로운 나라에게 줄 수 있는 정보의 양도 많을 것이라 생각됩니다.  </p>
+
+          <h3> 이제 "AquaGlobe"를 사용하시는 방법을 다 읽으셨습니다!</h3>
+          <h3>The END </h3>
+          <img src="turtle.svg" alt="A black colored simplified graphic of a turtle">
+
+      </section>
+
+      <script>
+        document.querySelector('#lang2').addEventListener('change', function(e) {
+          var langChoosen = e.target.value;
+          console.log(langChoosen);
+          document.querySelector('#instruction .visible').classList.remove('visible');
+          document.querySelector('#instruction .' + langChoosen).classList.add('visible');
+        })
+      </script>
+  </body>
+</html>
