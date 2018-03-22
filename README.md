@@ -2,7 +2,7 @@
 # AquaGlobe
 Discover and Visualize “Hidden Connections”  from Changes in marine ecosystem and fisheries resources caused by climate change.
 
-| <img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/instBubble.png" width="85%" height="auto"> |
+<img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/instBubble.png" width="85%" height="auto"/>
 | Visualize Changes in marine ecosystem and fisheries |
 
 | <img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/instNetwork.png" width="90%" height="auto"> |
