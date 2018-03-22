@@ -33,4 +33,4 @@ FAO. 2017. Fishery and Aquaculture Statistics. Global production by production s
 Data Analysis with R. Visualize with Shiny and D3.
 
 ### Network Generate Formula
-![Instruction Images](img/formula.png){: width="80%" height="auto"}
+![Instruction Images](img/formula.png){: width="80px" height="80px"}
