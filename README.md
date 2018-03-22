@@ -11,6 +11,7 @@ Discover and Visualize “Hidden Connections”  from Changes in marine ecosyste
 [Network Map Example]
 <img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/network.png" width="100%" height="auto"/>
 
+## About
 ### About AquaGlobe Project :
 A usual focus of a climate change discussion is to discover the cause of the climate change so that the cause can be eliminated and so the climate change. However, AquaGlobe project focuses on how to cope with the change brought about, considering that a crisis can become an opportunity.
 
