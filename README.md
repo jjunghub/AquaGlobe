@@ -2,14 +2,14 @@
 # AquaGlobe
 Discover and Visualize “Hidden Connections”  from Changes in marine ecosystem and fisheries resources caused by climate change.
 
-Visualize Changes in marine ecosystem and fisheries
-<img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/instBubble.png" width="85%" height="auto">
+|<img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/instBubble.png" width="85%" height="auto">|
+|Visualize Changes in marine ecosystem and fisheries|
 
-Network Instructions
-<img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/instNetwork.png" width="90%" height="auto">
+|<img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/instNetwork.png" width="90%" height="auto">|
+|Network Instructions|
 
-Network Map Example
-<img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/network.png" width="100%" height="auto">
+|<img src="https://github.com/jjunghub/AquaGlobe/blob/master/img/network.png" width="100%" height="auto">|
+|Network Map Example|
 
 ### About AquaGlobe Project :
 A usual focus of a climate change discussion is to discover the cause of the climate change so that the cause can be eliminated and so the climate change. However, AquaGlobe project focuses on how to cope with the change brought about, considering that a crisis can become an opportunity.
