@@ -2,10 +2,10 @@
 # AquaGlobe
 Discover and Visualize “Hidden Connections”  from Changes in marine ecosystem and fisheries resources caused by climate change.
 
-![Instruction Images](./img/instEn1.png){:width="50%" height="30%"}
-![Instruction Images](./img/instEn2.png){:width="50%" height="auto"}
-![Instruction Images](./img/instEn3.png){:width="50%" height="auto"}
-![Instruction Images](./img/network.png){:width="50%" height="auto"}
+<img src="AquaGlobe/img/instEn1.png" width="50%" height="auto">
+<img src="AquaGlobe/img/instEn2.png" width="50%" height="auto">
+<img src="AquaGlobe/img/instEn3.png" width="50%" height="auto">
+<img src="AquaGlobe/img/network.png" width="50%" height="auto">
 
 ### About AquaGlobe Project :
 A usual focus of a climate change discussion is to discover the cause of the climate change so that the cause can be eliminated and so the climate change. However, AquaGlobe project focuses on how to cope with the change brought about, considering that a crisis can become an opportunity.
@@ -33,4 +33,4 @@ FAO. 2017. Fishery and Aquaculture Statistics. Global production by production s
 Data Analysis with R. Visualize with Shiny and D3.
 
 ### Network Generate Formula
-![Instruction Images](./img/formula.png){:width="80px" height="80px"}
+<img src="AquaGlobe/img/formula.png" width="80%" height="auto">
