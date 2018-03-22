@@ -2,7 +2,10 @@
 # AquaGlobe
 Discover and Visualize “Hidden Connections”  from Changes in marine ecosystem and fisheries resources caused by climate change.
 
-![Instruction Images](img/instEn1.png)
+![Instruction Images](img/instEn1.png){ width="50%"}
+![Instruction Images](img/instEn2.png){ width="50%"}
+![Instruction Images](img/instEn3.png){ width="50%"}
+![Instruction Images](img/network){ width="50%"}
 
 ### About AquaGlobe Project :
 A usual focus of a climate change discussion is to discover the cause of the climate change so that the cause can be eliminated and so the climate change. However, AquaGlobe project focuses on how to cope with the change brought about, considering that a crisis can become an opportunity.
@@ -23,10 +26,11 @@ This project was initially prepared to participate in the “Big Idea Competitio
 
 본 프로젝트는 UN Global Pulse의 “Big Idea Competition 2017: Combating Climate Change” (한국 명칭: 글로벌 데이터톤 2017) 에서 2017년 최우수상을 수상하였습니다. 지금도 Aradiya는 우리가 스크린으로만 보고 있는 나라 간의 연결선이 언젠간 현실에서도 이루어질 것이라는 바람 아래 지속적으로 AquaGlobe 프로젝트를 진행하고 있습니다.
 
-#### Dataset
+### Dataset
 FAO. 2017. Fishery and Aquaculture Statistics. Global production by production source 1950-2015 (FishstatJ), www.fao.org/fishery/statistics/software/fishstatj/en
 
 ### Process
 Data Analysis with R. Visualize with Shiny and D3.
 
-#### Network Generate Formula
+### Network Generate Formula
+![Instruction Images](img/formula){ width="80%"}
